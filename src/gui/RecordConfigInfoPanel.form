@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+        <TitledBorder title="Record Config Info"/>
+      </Border>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="frame_videotingLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_videobugLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_nowvideoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_openloadLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_streamLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_xtubethLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_h265Label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_vodlockerLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_filehootLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="frame_videotingValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_videobugValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_vodlockerValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_nowvideoValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_openloadValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_streamValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_xtubethValue" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_h265Value" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="frame_filehootValue" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Component id="jSeparator1" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="saveFileLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="saveFileLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="durationLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="timeLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sizeLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lengthLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="saveFileLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="websiteValue" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lengthValue1" min="-2" max="-2" attributes="0"/>
+                          <Component id="sizeValue1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="timeValue1" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="durationValue" alignment="0" max="32767" attributes="0"/>
+                          <Component id="saveFileValue1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="loadFileValue1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_h265Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_h265Value" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_xtubethLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_xtubethValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_streamLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_streamValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_openloadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_openloadValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_nowvideoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_nowvideoValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_vodlockerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_vodlockerValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_videobugLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_videobugValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_videotingLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_videotingValue" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="frame_filehootValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="frame_filehootLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lengthLabel1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="sizeLabel1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="timeLabel1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="durationLabel" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="saveFileLabel1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="saveFileLabel2" linkSize="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lengthValue1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="sizeValue1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="timeValue1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="durationValue" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="saveFileValue1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="loadFileValue1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="saveFileLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="websiteValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="178" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lengthLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Length :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sizeLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Size :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saveFileLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save File :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lengthValue1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sizeValue1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saveFileValue1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Record Config Info (Automation)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saveFileLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load File :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="loadFileValue1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="durationLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Duration:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="durationValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="timeLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time to start recording :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="timeValue1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N/A"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="saveFileLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="frameDimensionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="frameRateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="sizeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="counterLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="counterValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="sizeValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="frameDimensionValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="frameRateValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lengthValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="saveFileValue" pref="381" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lengthValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="sizeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="sizeValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="frameRateLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="frameDimensionLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="saveFileLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="frameRateValue" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="frameDimensionValue" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="saveFileValue" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="counterLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="counterValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lengthLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frameRateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Frame Rate :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lengthValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel9"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frameRateValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel11"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="saveFileLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save File :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frameDimensionLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frameDimensionValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel12"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="saveFileValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel16"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sizeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Size :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sizeValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="counterLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Counter :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="counterValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jLabel17"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="frame_videotingLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - videoting:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_streamValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_vodlockerLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - vodlocker:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_h265Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - h265:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_videobugLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - videobug:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_vodlockerValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_filehootLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - filehoot:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_videotingValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_streamLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - stream:"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_videobugValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_xtubethLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - xtubeth:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_nowvideoValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_nowvideoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - nowvideo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_h265Value">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_openloadValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_openloadLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Frame Dimension (x,y,w,h) - openload:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_xtubethValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="frame_filehootValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="saveFileLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Website :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="websiteValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel17"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
