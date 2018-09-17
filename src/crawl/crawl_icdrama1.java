@@ -28,7 +28,7 @@ public class crawl_icdrama1 {
         } while (links1.eq(i).attr("href").startsWith("http"));
 
         System.out.println("launching chrome browser");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Jonathan\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\user4\\Desktop\\lib\\chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         
